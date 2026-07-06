@@ -11,6 +11,13 @@
 
 ---
 
+## Quick start
+
+```bash
+git clone https://github.com/technika11y/iot-firmware-auditor && cd iot-firmware-auditor
+PYTHONPATH=src python3 -m iotaudit.cli examples/devices.json
+```
+
 ## Status — read this first
 
 **Pre-alpha (`v0.1.0a0`). Honest state of the code:**
