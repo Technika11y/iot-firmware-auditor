@@ -56,3 +56,7 @@ WARN  insecure-service       kds-1: telnet management is unencrypted — exposes
 ## License
 
 [Apache-2.0](LICENSE). See [`SECURITY.md`](SECURITY.md).
+
+---
+
+**Part of the [Technika11y](https://github.com/technika11y) suite** · [technika11y.github.io](https://technika11y.github.io/) · security, compliance, and accessibility as one discipline.
