@@ -1,0 +1,18 @@
+[project]
+name = "technika11y-iot-firmware-auditor"
+version = "0.1.0a0"
+description = "Audits a commercial-kitchen IoT inventory for outdated/EOL firmware, default credentials, and unencrypted management services."
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+keywords = ["iot", "firmware", "security", "food-service", "vulnerability", "audit"]
+
+[project.scripts]
+iot-firmware-auditor = "iotaudit.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["iotaudit"]

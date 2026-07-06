@@ -1,0 +1,11 @@
+# Keep the default ruleset, but allowlist test/example fixtures — an IoT credential auditor's
+# fixtures deliberately contain default/weak credentials (admin/admin, etc.).
+[extend]
+useDefault = true
+
+[allowlist]
+description = "test and example fixtures contain intentional default/weak credentials"
+paths = [
+  '''tests/''',
+  '''examples/''',
+]

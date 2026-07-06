@@ -1,0 +1,16 @@
+[
+  {
+    "id": "probe-1",
+    "model": "acme-tempprobe",
+    "firmware": "2.4.0",
+    "credentials": { "username": "kitchen", "password": "s3cret!" },
+    "services": ["https", "mqtt"]
+  },
+  {
+    "id": "kds-1",
+    "model": "acme-kds",
+    "firmware": "3.0.5",
+    "credentials": { "username": "admin", "password": "admin" },
+    "services": ["telnet", "http"]
+  }
+]
