@@ -5,6 +5,7 @@
 >
 > Part of the **Technika11y** suite · *Root access for everyone.* · pairs with `kitchen-microsegmenter`
 
+[![ci](https://github.com/technika11y/iot-firmware-auditor/actions/workflows/ci.yml/badge.svg)](https://github.com/technika11y/iot-firmware-auditor/actions/workflows/ci.yml)
 ![status](https://img.shields.io/badge/status-pre--alpha-orange)
 ![license](https://img.shields.io/badge/license-Apache--2.0-blue)
 ![python](https://img.shields.io/badge/python-3.10%2B-informational)
